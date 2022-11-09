@@ -1,0 +1,222 @@
+
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.but1{
+    background-color: black ;
+    display: block;
+    color: gray;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+}
+.blackline{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+
+}
+.account{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 25%;
+    
+}
+.accounticon{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 7px;
+}
+
+.headerdiv{
+    width: 100%;
+    height: 160px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wkni{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.nav-item{
+    color: black;
+    font-size: 14px;
+}
+.nav-item:hover{
+    color: red;
+    font-size: 20px;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    height: 48px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.searchdiv{
+    width: 250px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 232, 230);
+    margin-left: 20px;
+    
+}
+
+.body{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: fit-content;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 232, 230);
+}
+.iconimg{
+    width: 20px;
+    height: 20px;
+}
+.searchinput{
+    transition-property:width;
+    transition-duration: 2s;
+    background-color: rgb(233, 232, 230);
+    border: none;
+    width: 200px;
+    height: 48px;
+}
+
+.myStyle {
+    transition-property:width;
+    transition-duration: 2s;
+    width: 1px;
+    
+}
+.icon {
+    background-color: rgb(233, 232, 230);
+    width: 40px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    background-image: url(./first-section.jpg);
+    width: 100%;
+    height: 640px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.section2txtdiv{
+    width: 80%;
+    height: 246px;
+    background-color: white;
+}
+.h1{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.p3{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.section2but{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+
+.slidersection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cardsbox{
+    width: 75%;
+    margin-top: 70px;
+}
+
+.cards1{
+    height: 487px;
+    background-image: url(./card1.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+    
+.cards2{
+    
+    height: 487px;
+    background-image: url(./card2.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cards3{
+    
+    height: 487px;
+    background-image: url(./card3.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.cardtxt1{
+    margin-top: 20px;
+    width: 40%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.p2{
+    padding-left: 20px;
+    margin-top: 70px;
+}
+.h2{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.slidebut{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 200px;
+    font-weight: bold;
+}
+.h3{
+    padding-left: 20px;
+}
+
+.prevbut{
+    height: 400px;
+    margin-top: 0px;
+}
+.nextbut{
+    height: 400px;
+    margin-top: 0px;
+}
+
