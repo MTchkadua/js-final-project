@@ -129,6 +129,7 @@
     align-items: flex-end;
 }
 .section2txtdiv{
+    opacity: 0.8;
     width: 80%;
     height: 246px;
     background-color: white;
@@ -227,7 +228,6 @@
 .cardanimationsection{
     width: 80%;
     margin: 0 auto;
-    height: 261px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -319,6 +319,7 @@
 }
 .sectionskitxtdiv{
     width: 80%;
+    opacity: 0.8;
     height: 246px;
     background-color: white;
 }
@@ -339,7 +340,6 @@
 .skicardsection{
     width: 80%;
     margin: 0 auto;
-    height: 261px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -411,11 +411,71 @@
 
 .exploremorediv{
     width: 80%;
-    margin: 30px auto 125px auto;
+    margin: 50px auto;
 }
 .expbut{
     width: 166px;
     font-size: 14px;
     font-weight: bold;
 }
+.inboxsection{
+    width: 80%;
+    height: 204px;
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.inboxphotodiv{
+    width: 348px;
+    height: 204px;
+}
+.inboximg{
+    width: 348px;
+    height: 204px;
+}
+.inboxtxtdiv{
+    width: 62%;
 
+}
+.inboxheader{
+   
+    font-size: 40px;
+}
+.inboxtxt{
+    margin-top: 12px;
+    font-size: 14px;
+}
+.signupdiv{
+    margin-top: 24px;
+    width: 390px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    width: 236px;
+    background-color: rgb(217, 216, 216);
+    height: 48px;
+    border: none;
+}
+
+.signtbut{
+    width: 133px;
+    height: 48px;
+    background-color: black;
+    color: white;
+}
+.successicon{
+    margin-left: 60px;
+    width: 40px;
+    height: 40px;
+}
+.succes{
+    display:none;
+    
+}
+.successtxt{
+    color: green;
+    font-size: 16px;
+    font-weight: bolder;
+}

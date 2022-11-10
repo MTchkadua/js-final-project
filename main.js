@@ -60,6 +60,21 @@ ski4.addEventListener("click", function(){
 })
 
 
+//იმეილის ვალიდაცია
+let email = document.querySelector(".email")
+console.log(email)
+let but = document.querySelector(".signtbut")
+let succes = document.querySelector(".succes")
+console.log(succes)
+
+but.addEventListener("click", function(){
+    if(email.value.includes("@") && 6<email.value.length){
+        email.style.display = "none"
+        but.style.display="none"
+        succes.style.display="block"
+    }else{alert("Enter correct Email!")}
+})
+
 
 
 
