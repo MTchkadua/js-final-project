@@ -58,6 +58,7 @@
 }
 .ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 440px;
@@ -143,6 +144,9 @@
     padding-left: 30px;
     font-size: 20px;
 }
+.p33{
+    display: none;
+}
 .section2but{
     margin-left: 20px;
     font-weight: bold;
@@ -165,7 +169,7 @@
     background-image: url(./card1.jpg);
     background-repeat:no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
 }
     
 .cards2{
@@ -174,7 +178,7 @@
     background-image: url(./card2.jpg);
     background-repeat:no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
 }
 .cards3{
     
@@ -182,7 +186,7 @@
     background-image: url(./card3.jpg);
     background-repeat:no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     
 }
 .cardtxt1{
@@ -420,10 +424,11 @@
 }
 .inboxsection{
     width: 80%;
-    height: 204px;
+    
     display: flex;
     margin: 50px auto;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .inboxphotodiv{
     width: 348px;
@@ -544,4 +549,77 @@
     margin-left: 5px;
     font-size: 14px;
     font-weight: bold;
+}
+
+@media(max-width: 595px){
+    .wkni{
+        display: none;
+    }
+    .ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 48px;
+        justify-content: space-between;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .cardtxt1{
+        display: none;
+    }
+    .animationcard1{
+        opacity: 1;
+    }
+    .animationcard2{
+        opacity: 1;
+    }
+    .animationcard3{
+        opacity: 1;
+    }
+    .animationcard4{
+        opacity: 1;
+    }
+    .lastnav{
+        display: none;
+    }
+    .p3{
+        display: none;
+    }
+    .p33{
+        display: block;
+        padding-top: 10px;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .skiP{
+        display: none;
+    }
+    .cardanimationsectionheader{
+        padding-left: 75px;
+    }
+    .cardanimationsection{
+        padding-left: 50px;
+    }
+    .h111{
+        padding-left: 50px;
+    }
+    .skicardsection{
+        padding-left: 50px;
+    }
+    .inboxheader{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .footerheader{
+        font-size: 30px;
+    }
+    .footerdate{
+        padding-bottom: 30px;
+    }
+    .blackline{
+        justify-content: space-around;
+    }
+    
 }
