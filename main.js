@@ -17,13 +17,13 @@ let cardBox3 = document.querySelector(".animationcard3")
 let cardBox4 = document.querySelector(".animationcard4")
 
 window.addEventListener("scroll", function(){
-    if(scrollY>200){
+    if(scrollY>650){
         cardBox1.style.opacity="1"
         cardBox2.style.opacity="1"
         cardBox3.style.opacity="1"
         cardBox4.style.opacity="1"
         
-    }else if(scrollY<200){
+    }else if(scrollY<650){
         cardBox1.style.opacity="0"
         cardBox2.style.opacity="0"
         cardBox3.style.opacity="0"
